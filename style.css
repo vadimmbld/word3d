@@ -29,6 +29,7 @@ body {
   align-items: center; }
   .block-orientation svg {
     width: 50%;
+    height:0;
     -webkit-animation: rotateMobile 2000ms  infinite;
     animation: rotateMobile 2000ms  infinite; }
 
@@ -107,7 +108,11 @@ body {
     opacity: 1;
     -webkit-transition: 0;
     -o-transition: 0;
-    transition: 0; } }
+    transition: 0; } 
+    .block-orientation svg{
+        height: auto;
+    }
+}
 
 @media screen and (max-device-width: 550px) {
   .word3d .box .side {
