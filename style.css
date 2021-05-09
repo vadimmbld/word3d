@@ -112,6 +112,9 @@ body {
     .block-orientation svg{
         height: auto;
     }
+  .word3d {
+    width:0;
+  }
 }
 
 @media screen and (max-device-width: 550px) {
