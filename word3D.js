@@ -30,7 +30,7 @@ let word3d = new function(){
     this.nextWord = ()=>{
         let p = [];
         this.wordInd++;
-        if(this.wordInd>this.word.length){
+        if(this.wordInd>this.word.length-1){
             this.wordInd = 0;
         }
         document.querySelector('title').innerText = `${this.word[this.wordInd]}`;
